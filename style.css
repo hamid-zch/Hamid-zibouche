@@ -20,7 +20,7 @@ h1{
 }
 header{
     
-    background: url(background.png) 0 0 no-repeat;
+    background: url(background.png) 0 0;
     height: 70%;
     color: white;
     border-radius: 5px;
