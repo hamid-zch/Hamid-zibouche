@@ -1,0 +1,166 @@
+
+/* ----------------------pour les pc portable--------------------------------- */
+
+@media (min-width: 1024px)  {
+    /* #back{
+    background: url(background.png) 0 0 no-repeat;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(3px);
+    z-index: 0;
+} */
+body{
+ 
+    margin: 0;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(244, 244, 244);
+}
+
+header{
+    
+    background: url(background.png) 0 0 ;
+    height: 70%;
+    color: white;
+    border-radius: 5px;
+}
+#bio{
+    height: 100%;
+}
+ h1{
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    text-align: center;
+    padding-top: 0px;
+    margin: 8px;
+}
+main{
+    width:100% ;
+}
+footer{
+    
+    background-color: black;
+}
+
+img{
+    border-radius: 50%;
+    width: 100%;
+    border: 4px solid #003d75;
+    background-repeat: repeat-y;
+    
+}
+#photo{
+    width: 20%;
+    margin: -5% auto;
+    margin-bottom:;
+    z-index: 1;
+}
+#back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+#identité{
+    
+    z-index: 10;
+}
+.cursus-box{
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre horizontalement */
+    z-index: 0;
+}
+.box{
+    max-width:400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    z-index: 0;
+}
+
+
+
+  }
+
+
+  /*-------------------------------------- pour les smartphone ----------------------------------------------------------------------------*/
+
+
+  @media (max-width: 767px)  {
+    /* #back{
+    background: url(background.png) 0 0 no-repeat;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(3px);
+    z-index: 0;
+} */
+body{
+ 
+    margin: 0;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(244, 244, 244);
+}
+
+header{
+    
+    background: url(background.png) 0 0 ;
+    height: 70%;
+    color: white;
+    border-radius: 5px;
+}
+#bio{
+    height: 100%;
+}
+ h1{
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    text-align: center;
+    padding-top: 0px;
+    margin: 8px;
+}
+main{
+    width:100% ;
+}
+footer{
+    
+    background-color: black;
+}
+
+img{
+    border-radius: 50%;
+    width: 100%;
+    border: 4px solid #003d75;
+    background-repeat: repeat-y;
+    
+}
+#photo{
+    width: 20%;
+    margin: -5% auto;
+    
+}
+#back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+#identité{
+    
+    z-index: 10;
+}
+  }
+  
