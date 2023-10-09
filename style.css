@@ -13,7 +13,7 @@
     z-index: 0;
 } */
 body{
- 
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     width: 100%;
     height: 360px;
@@ -23,6 +23,8 @@ body{
 header{
     
     background: url(background.png) 0 0 ;
+    background-repeat: repeat-x; /* Répétez l'image horizontalement */
+    transform: scaleX(1);
     height: 70%;
     color: white;
     border-radius: 5px;
@@ -69,6 +71,7 @@ img{
     flex-wrap: wrap;
     justify-content: center; /* Centre horizontalement */
     z-index: 0;
+    
 }
 .box{
     max-width:400px;
@@ -78,6 +81,12 @@ img{
     margin: 10px;
     z-index: 0;
     cursor: pointer;
+    
+    box-shadow: 0px 0px 5px 0px rgb(201 201 201);
+}
+.box:hover{
+    box-shadow: inset 0px 0px 7px 0px rgb(201 201 201);
+    padding: 11px;
 }
 
 
@@ -88,8 +97,8 @@ img{
   /*-------------------------------------- pour les smartphone ----------------------------------------------------------------------------*/
 
 
-  @media (max-width: 767px)  {
-    /* #back{
+  @media (max-width: 1000px)  {
+      /* #back{
     background: url(background.png) 0 0 no-repeat;
     height: 70%;
     width: 100%;
@@ -100,7 +109,7 @@ img{
     z-index: 0;
 } */
 body{
- 
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     width: 100%;
     height: 360px;
@@ -110,6 +119,8 @@ body{
 header{
     
     background: url(background.png) 0 0 ;
+    background-repeat: repeat-x; /* Répétez l'image horizontalement */
+    transform: scaleX(1);
     height: 70%;
     color: white;
     border-radius: 5px;
@@ -144,12 +155,35 @@ img{
 #photo{
     width: 20%;
     margin: -5% auto;
-    
+    margin-bottom: -2%;
+    position: relative;
+    z-index: 2;
 }
 
-#identité{
+
+.cursus-box{
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre horizontalement */
+    z-index: 0;
     
-    z-index: 10;
 }
+.box{
+    max-width:400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    z-index: 0;
+    cursor: pointer;
+    
+    box-shadow: 0px 0px 5px 0px rgb(201 201 201);
+}
+.box:hover{
+    box-shadow: inset 0px 0px 5px 0px rgb(201 201 201);
+}
+
+
   }
   
