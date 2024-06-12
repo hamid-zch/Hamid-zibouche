@@ -162,7 +162,7 @@ img{
 
 
 .cursus-box{
-    max-width: 2000px;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centre horizontalement */
